@@ -28,11 +28,13 @@
                             <label for="date-of-birth">Date of Birth</label>
                             <input type="date">
                     </div>
+                    <br>
                     <!-- How Much Do You Like to Code?  -->
                     <div>
                             <label for="like-it">How Much Do You Like to Code?</label>
                             <input type="range">
                     </div>
+                    <br>
                     <!-- Skills (check any that apply)  HTML  CSS  Git -->
                     <div>
                                 <label for="skills">Skills (check any that apply)</label>
@@ -40,6 +42,7 @@
                                 <input type="checkbox" name="lang2" value="css">CSS
                                 <input type="checkbox" name="lang3" value="Git">Git
                     </div>
+                    <br>
                     <!-- Favorite Language  Ruby JS Python-->
                     <div>
                                 <label for="fav-lang">Favorite Language</label>
@@ -50,6 +53,7 @@
                                     <option value="python">Python</option>
                                 </select>
                     </div>
+                    <br>
                     <!-- Favorite Browser ie firefox crome safari  -->
                     <div>
                                 <label for="browser">Favorite Browser</label>
@@ -57,27 +61,32 @@
                                 <datalist id="browser">
                                     <option value="Internet Explorer">
                                     <option value="Firefox">
+                                    <option value="Chrome">
                                     <option value="Safari">
                                 </datalist>
                     </div>
+                    <br>
                     <!-- White Space:  Tabs  Spaces -->
                     <div>
                                 <label for="white-space">White Space:</label>
-                                <input type="radio" name="choice">Tabs
+                                <input type="radio" name="choice" checked>Tabs
                                 <input type="radio" name="choice">Spaces
                     </div>
+                    <br>
                     <!-- How Many Spaces Should a Tab Represent? -->
                     <div>
                                 <label for="tab-represents">How Many Spaces Should a Tab Represent?</label>
-                                <input type="">
+                                <input type="number" name="tab-represents" min="1" value="2">
                             
                     </div>
+                    <br>
                     <!-- Favorite Web Color  -->
                     <div>
                             <label for="fav-color">Favorite Web Color</label>
                             <input type="color" name="fav-color">
                         
                     </div>
+                    <br>
                     <input type="submit" value="Send">
                     <input type="reset">
                 </form>
