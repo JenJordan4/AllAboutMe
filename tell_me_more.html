@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tell Me More</title>
+    </head>
+    <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="tell_me_more.html" class="current-page">Tell Me More</a></li>
+                </ul>
+            </nav>
+            <main>
+                    <h1>All About You!</h1>
+                    <!--First name, last name, email DOB forms-->
+                <form action="" method="get">
+                    <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" placeholder="Some">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" placeholder="Guy">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="some@guy.com">
+                            <label for="date-of-birth">Date of Birth</label>
+                            <input type="date">
+                    </div>
+                    <!-- How Much Do You Like to Code?  -->
+                    <div>
+                            <label for="like-it">How Much Do You Like to Code?</label>
+                            <input type="range">
+                    </div>
+                    <!-- Skills (check any that apply)  HTML  CSS  Git -->
+                    <div>
+                                <label for="skills">Skills (check any that apply)</label>
+                                <input type="checkbox" name="lang1" value="html">HTML
+                                <input type="checkbox" name="lang2" value="css">CSS
+                                <input type="checkbox" name="lang3" value="Git">Git
+                    </div>
+                    <!-- Favorite Language  Ruby JS Python-->
+                    <div>
+                                <label for="fav-lang">Favorite Language</label>
+                                <select name="fav-lang">
+                                    <option value="select">Select a language</option>
+                                    <option value="ruby">Ruby</option>
+                                    <option value="js">JavaScript</option>
+                                    <option value="python">Python</option>
+                                </select>
+                    </div>
+                    <!-- Favorite Browser ie firefox crome safari  -->
+                    <div>
+                                <label for="browser">Favorite Browser</label>
+                                <input list="browser">
+                                <datalist id="browser">
+                                    <option value="Internet Explorer">
+                                    <option value="Firefox">
+                                    <option value="Safari">
+                                </datalist>
+                    </div>
+                    <!-- White Space:  Tabs  Spaces -->
+                    <div>
+                                <label for="white-space">White Space:</label>
+                                <input type="radio" name="choice">Tabs
+                                <input type="radio" name="choice">Spaces
+                    </div>
+                    <!-- How Many Spaces Should a Tab Represent? -->
+                    <div>
+                                <label for="tab-represents">How Many Spaces Should a Tab Represent?</label>
+                                <input type="">
+                            
+                    </div>
+                    <!-- Favorite Web Color  -->
+                    <div>
+                            <label for="fav-color">Favorite Web Color</label>
+                            <input type="color" name="fav-color">
+                        
+                    </div>
+                    <input type="submit" value="Send">
+                    <input type="reset">
+                </form>
+
+            </main>
+    </body>
+</html>
